@@ -1,0 +1,134 @@
+.head {
+  background-color: #dddddd;
+  margin-top: 26px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.title {
+  padding-left: 14px;
+  width: 48%;
+}
+
+.buttonNew {
+  text-align: right;
+  width: 49%;
+}
+
+.buttonNew .material-symbols-outlined {
+  font-size: 40px;
+}
+
+.material-symbols-outlined {
+  cursor: pointer;
+}
+
+.tableList {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12px;
+  width: 60%;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.code {
+  width: 14%;
+}
+
+.name {
+  width: 28%;
+}
+
+.lastName {
+  width: 38%;
+}
+
+.age {
+  width: 12%;
+}
+
+.actions {
+  width: 8%;
+}
+
+.actions .material-symbols-outlined {
+  font-size: 20px;
+}
+
+.empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 40vh;
+}
+
+.empty span {
+  color: darkred;
+  font-size: 24px;
+  font-family: arial, sans-serif;
+}
+
+form {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12px;
+  padding: 12px;
+  width: 58%;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+
+form div+div {
+  margin-top: 1em;
+}
+
+label {
+  font-family: arial, sans-serif;
+  display: inline-block;
+  margin-top: 12px;
+  width: 90px;
+  font-size: 22px;
+}
+
+input {
+  font-family: arial, sans-serif;
+  font-size: 22px;
+  margin-top: 8px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+
+input:focus {
+  outline: none;
+}
+
+.mandatory {
+  font-size: 12px;
+  color: red;
+}
+
+.btnSave {
+  cursor: pointer;
+}
